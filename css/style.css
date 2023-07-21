@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+body {
+  height: 500px;
+  background-color: rgb(199, 199, 255);
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #c6e9ff, #b5dd7b);
+  position: relative;
+}
+
+.background_page {
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+
+.bg_text {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  right: 30%;
+  transform: translate(-100%, -50%);
+  transform: rotate(19deg);
+  font-family: 'Ysabeau SC', sans-serif;
+}
+
+h2.bg_title {
+  color: rgb(255, 247, 209);
+}
+
+h4.bg_desc {
+  color: rgb(215, 255, 255);
+}
+
+.navbar {
+  font-family: 'Ysabeau SC', sans-serif;
+}
+
+.nav_name {
+  font-family: 'Bacasime Antique', serif;
+
+}
+
+.admin_text {
+  font-family: 'Unica One', cursive;
+}
+
+.admin_name {
+  padding-left: 70px;
+  text-align: left;
+  font-family: 'Charm', cursive;
+}
+
+.about_admin {
+  padding-left: 150px;
+  width: 1100px;
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Grandiflora One', serif;
+}
+.carousel{
+  height: min-content;
+}
+
+.title_ {
+  text-align: center;
+  font-style: oblique;
+  background-color: rgb(199, 199, 255);
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #9ad8ff, #caff7c);
+}
+
+.kiran_img {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: rgba(250, 0, 0, 0.848);
+}
+
+a:visited {
+  text-decoration: rgb(71, 255, 47);
+}
+
+a:hover {
+  text-decoration: rgba(219, 225, 47, 0.722);
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.para {
+  color: rgb(255, 0, 0);
+}
+
+div.scro {
+  background-color: #d9e9ff;
+  width: 850px;
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+
+.card:hover {
+  background-color: rgba(209, 65, 65, 0.244);
+  border: 2px solid #320404
+}
+
+.ex1 {
+  width: 300px;
+  height: 400px;
+  margin: left;
+  background-color: #9ad8ff32;
+}
+
+.fun_hob {
+  font-family: 'Rubik Moonrocks', cursive;
+}
+
+
+p.note {
+  background-color: #fbff89;
+  width: fit-content;
+  font-family: 'Nanum Brush Script', cursive;
+}
+
+p.skil_com {
+  text-indent: 45px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.732);
+}
+
+
+/* scroller */
+.scrolled {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: scroll-in 3s forwards;
+}
+
+@keyframes scroll-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px)
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
